@@ -2,7 +2,23 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, you'd better install the packages according to the following version
+
+```
+npm i @uppy/core@3.5.0 @uppy/react@3.1.3 @uppy/aws-s3@3.3.0
+npm i aws-sdk
+npm i @uppy/dashboard@3.5.2 @uppy/drag-drop@3.0.3 @uppy/file-input@3.0.3 @uppy/progress-bar@3.0.3
+```
+
+set the .env.local
+```
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+AWS_S3_BUCKET_NAME=
+AWS_REGION=
+```
+
+run the development server:
 
 ```bash
 npm run dev
